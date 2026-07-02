@@ -1,0 +1,40 @@
+{
+  "name": "cursor-mobile-bridge",
+  "displayName": "Cursor Mobile Bridge",
+  "description": "Programmatic Composer submit for Cursor Mobile (insertIntoChat, no keyboard automation).",
+  "version": "0.2.0",
+  "publisher": "cursor",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "extensionKind": ["ui"],
+  "activationEvents": ["onStartupFinished"],
+  "enabledApiProposals": ["cursor"],
+  "capabilities": {
+    "untrustedWorkspaces": { "supported": true },
+    "virtualWorkspaces": true
+  },
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cursorMobileBridge.submitToComposer",
+        "title": "Cursor Mobile: Submit to Composer"
+      },
+      {
+        "command": "cursorMobileBridge.status",
+        "title": "Cursor Mobile: Bridge Status"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json -w"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.5.0"
+  }
+}

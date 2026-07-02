@@ -1,0 +1,25 @@
+node_modules/
+dist/
+build/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/*.iml
+android/keystore.properties
+android/*.keystore
+android/app/google-services.json
+
+# Relay
+relay/.wrangler/
+
+# Mac daemon
+mac-daemon/.cursor-mobile/

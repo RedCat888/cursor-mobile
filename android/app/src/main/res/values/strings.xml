@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cursor Mobile</string>
+    <string name="fcm_channel_id">cursor_mobile_agents</string>
+    <string name="fcm_channel_name">Agent updates</string>
+</resources>
