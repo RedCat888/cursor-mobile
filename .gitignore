@@ -1,8 +1,16 @@
 node_modules/
 dist/
 build/
+.next/
+out/
+coverage/
 .DS_Store
 *.log
+*.har
+.turbo/
+__pycache__/
+*.pyc
+.venv/
 .env
 .env.*
 !.env.example

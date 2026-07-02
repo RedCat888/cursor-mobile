@@ -141,6 +141,14 @@ cursor-mobile/
 - Self-hosted Cloudflare relay assumes a free Workers account; usage stays well under the free tier for a single user.
 - Currently single-Mac per phone pairing is the focus; multi-Mac switching is wired in the data layer (see `AuthStore.savePair`) but not surfaced in the UI yet.
 
+## Status
+
+Actively developed, pre-release. Latest known-good validation:
+
+- `mac-daemon`: `tsc --noEmit` passes
+- `relay`: `tsc --noEmit` passes
+- `cursor-extension`: build passes
+
 ## Hacking
 
 Each component has its own `README.md`. Quick dev loop:
