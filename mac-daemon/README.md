@@ -69,7 +69,7 @@ tail -F ~/.cursor-mobile/daemon.{out,err}.log
   "pairing": { /* set by `pair` */ },
   "fcm": { "serverKey": "<JSON service account>", "deviceToken": "...", "projectId": "..." },
   "fsAllowList": [],     // default: $HOME
-  "defaultCwd": "/Users/you/code/some-project"
+  "defaultCwd": "/workspace/project"
 }
 ```
 
